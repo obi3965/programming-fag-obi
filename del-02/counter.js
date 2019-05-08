@@ -47,7 +47,7 @@
 
 class CounterSystem {
 	constructor (cssSelector) {
-		this.counter = 0;
+		this.name = 0;
 		this.counterValueElement = null;
 		this.btnCounterIncreaseElement = null;
 		this.btnCounterDecreaseElement = null;
