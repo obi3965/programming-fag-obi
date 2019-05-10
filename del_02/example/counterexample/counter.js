@@ -80,7 +80,7 @@ class CounterSystem {
 
 	attachToHTML (cssSelector) {
 		// References
-		this.counterValueElement       = document.querySelector (cssSelector + " .counter-value");
+		this.counterValueElement = document.querySelector (cssSelector + " .counter-value");
 		this.btnCounterIncreaseElement = document.querySelector (cssSelector + " .btn-counter-increase");
 		this.btnCounterDecreaseElement = document.querySelector (cssSelector + " .btn-counter-decrease");
 
