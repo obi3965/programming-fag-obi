@@ -2,9 +2,10 @@
 
 class SchoolClass{
 
-    constructor(cssSelector){
-        this.className = [];
-        this.educationName = [];
-        this.institutionName = [];
+    constructor(className,educationName,institutionName){
+        this.className = className;
+        this.educationName = educationName;
+        this.institutionName = institutionName;
+        this.studentName = [];
     }
 }
